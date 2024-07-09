@@ -1,0 +1,40 @@
+<!-- 1. Embedding Multimedia in Educational Content
+ Objective: The aim of this assignment is to enhance the delivery of educational content through the effective use of multimedia elements in a web page. By embedding images, audio, and video, students will learn to create more engaging and interactive educational resources.
+
+ Task 1: Embed an Educational Image Create an HTML page and embed an image that illustrates the concept you're teaching. Add a caption using the <figcaption> element to describe the image. 
+
+ Task 2: Include an Instructional Audio Clip Embed an audio clip that provides a brief explanation or reading of the concept. Ensure the audio is accessible with playback controls.
+
+Expected Outcome: A web page with an embedded audio clip that plays an explanation of the chosen concept, complete with controls for play, pause, and volume.
+
+Task 3: Integrate an Informative Video Incorporate a video that visually explains the concept. The video could be a lecture, an animation, or a documentary clip related to the topic. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedding Multimedia in Educational Content</title>
+</head>
+    <figure>
+        <img src="Water_cycle.png" alt="Water Cycle Process" style="height:40;width:40%">
+        <figcaption>Water cycle, cycle that involves the continuous circulation of water in the Earth-atmosphere system. Of the many processes involved in the water cycle, the most important are evaporation, transpiration, condensation, precipitation, and runoff.</figcaption>
+    </figure>
+
+    <p>The water cycle, also known as the hydrologic cycle, describes the continuous movement of water within the Earth and atmosphere. It is a complex system that includes many different processes.</p>
+
+    <!-- Embedding Audio -->
+    <h2>Fun with water cycle audio and video</h2>
+     <audio controls>
+       <source src="watercycle.mp3" type="audio/mpeg">
+       Your browser does not support the audio element.
+     </audio>
+
+    <!-- Embedding Video -->
+    <video width="320" height="240" autoplay volume controls>
+        <source src="watercycle.mp4" type="video/mp4">
+        Your browser does not support this video element.
+    </video>
+</body>
+</html>
